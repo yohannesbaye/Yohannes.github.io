@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form usng Html</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h1> Workshop Registration  <select name="favoritecharacter">
+       <option selected>More actions </option><option>Jerry</option>
+    <option>George</option>
+     </select> </h2>
+  <h2>Register now while seats are avaliable</h1>
+
+  <div id = "one">
+      <Form>
+      
+              <br> First name: <input type="text" name="firstName" required/> </br>
+              <br>Last Name:  <input type="text" name="lastName" required/></br>
+              <br>Company/Institution:  <input type="text" name="Company/Institution" required/></br>
+              <!-- <br>Address: <input id = "Address" type="text" name="Address" required/></br> -->
+              <br>Address:</br> <textarea rows="4" cols="40"> </textarea>
+              <!-- <textarea rows="4" cols="20"> -->
+
+              <br>city: <input type="text" name="city"></br>
+              <br>state /Province /region: <select name="favoritecharacter"> <option selected>-select-</option> </select> </br>
+              <br>Country:  <select name="favoritecharacter"> <option value = "selected values" selected>-  select -</option> </select> </br>
+              <br>email: <input type="text" name="city"></br>
+              
+              <br>Phone Number: <input type="text" name="city"></br>
+        
+       </Form>
+    </div>
+
+    
+    <p class = "two">
+
+        <h2>Luch</h2>
+        <form>
+            <br> Meal Preference
+            <select name = "dropdown">
+                <option value = "Vegitable" selected>Vegiterian</option> </select> </br> 
+        </form>
+   
+        <h2>Payment Details</h2>
+           <Form>
+               <br>  Payment Mode </br>
+               <p>
+                <input id = "submit" type="radio" name="Cash"> Cash <br />
+               <input id = "reset" type="radio" name="Cheque"> Cheque<br />
+                <input type="radio" name="Demand Draft">Demand Draft </p>
+           
+            </Form>
+
+                   
+           </Form>
+
+</p>
+
+    <p>
+
+       <form action="doit" id="doit" method="post">
+        <br>DD/Cheque No. <input id="name" name="DD/Cheque No." type="text" /> <br/>
+        
+        <br> D Drown On(Bank Name) <input id="phone" name="phone" type="text" /> <br/>
+        
+        <br> DPayable at <input id="year" name="year" type="text" /> <br/>
+        </form>
+    </p>
+
+
+    <footer>
+    
+            <button  class = "footerText" type="button" onclick="alert('Submitted')">Submit</button>
+            <button  class = "footerText" type="button" onclick="alert('Restart now')">Restart</button>
+            <!-- <input class = "footerText" type="submit" />
+            <input  class = "footerText" type="reset" /> -->
+    </footer>
+    
+   
+  </body>
+</html>
