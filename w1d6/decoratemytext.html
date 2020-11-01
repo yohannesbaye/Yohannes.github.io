@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+ <html lang = "en">
 	<head>
 		<title>Text Decorator</title>
 		<link href="decoratemytext.css" type="text/css" rel="stylesheet" />
-
-		
-		<!-- link to your script file here -->
+	<script  src="decorateme.js"> </script>
+	
 		
 	</head>
 
@@ -13,10 +12,52 @@
 		<h1>Text Decorator</h1>
 		
 		<div>
-			<img src="decorated.gif" alt="very decorated!" />
+			<img src="decorator.png" alt="very decorated!" />
 		</div>
 
-		<!-- Your UI controls go here -->
+		<!-- Add elements of html -->
+	
+
+		<div>
+			<fieldset>
+				<legend> <strong>Text</strong></legend>
+				<textarea  rows="4" cols="30">
+					 Sample Item 1
+					 Sample Item 2
+				</textarea>
 		
+			</fieldset>
+		
+		</div>
+
+				<div>
+					<fieldset>
+						<legend><strong>Decorator</strong> </legend>
+						<button id="bd" type="button" name="Bigger Decorations!" >Bigger Decorations!</button>
+						<br/>
+						<input id="bling" type="checkbox" onclick="myFunction()" name="bling"/>Bling
+						<p id="demo"></p>
+					</fieldset>
+				
+				</div>
+
+				
+		
+
+
+		<!-- Validation for html, css and javascript -->
+
+		
+<div class="validator">
+
+    <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="../images/w3c-html.png" alt="Valid HTML5"></a> <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="../images/w3c-css.png" alt="Valid CSS"></a>
+    <a href="http://mumstudents.org/jshint/referer.php" target="_blank" >
+        <img src="../images/w3c-js.png" alt="JS validator"></a>
+
+</div>
+			
 	</body>
 </html>
